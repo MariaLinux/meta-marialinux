@@ -84,7 +84,6 @@ CORE_IMAGE_EXTRA_INSTALL = " \
     ${NETWORKING} \
     ${GSTREAMER} \
     ${DEV_STACK} \
-    resize-rootfs \
     ptest-runner \
 "
 
