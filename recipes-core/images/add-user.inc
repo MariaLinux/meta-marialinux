@@ -2,10 +2,10 @@
 # Setup a non-root user for everyday work that has sudo abilities
 #
 
-DEVELOPER_USERNAME = "maria"
+DEVELOPER_USERNAME = "marie"
 # Generate password with `mkpasswd <my-password>`.
-# "maria" = "maria"
-DEVELOPER_PASSWORD = "maria"
+# "marie" = "marie"
+DEVELOPER_PASSWORD = "marie"
 DEVELOPER_UID = "1200"
 DEVELOPER_GID = "1200"
 

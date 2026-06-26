@@ -4,11 +4,8 @@ LICENSE = "MIT"
 NICE_TO_HAVE = " \
     bash \
     bash-completion \
-    cmake \
-    git \
     gnupg \
     man \
-    ninja \
     rsync \
     sudo \
     tmux \
@@ -59,7 +56,6 @@ NETWORKING = " \
     obexftp \
     rfkill \
     ser2net \
-    python3-speedtest-cli \
 "
 
 GSTREAMER = " \
@@ -75,6 +71,10 @@ DEV_STACK = " \
         libgpiod-tools \
 "
 
+SECURITY = " \
+    polkit \
+"
+
 # poky/meta/recipes-core/images/core-image-minimal.bb
 # sets IMAGE_INSTALL according to CORE_IMAGE_EXTRA_INSTALL.
 CORE_IMAGE_EXTRA_INSTALL = " \
@@ -84,6 +84,7 @@ CORE_IMAGE_EXTRA_INSTALL = " \
     ${NETWORKING} \
     ${GSTREAMER} \
     ${DEV_STACK} \
+    ${SECURITY} \
     ptest-runner \
 "
 
